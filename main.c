@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "algs.h"
 
 #define MAX_CYLINDER 1000
 
@@ -49,8 +50,15 @@ int main(int argc, char *argv[])
 
     printf("\n");
 
-	//TODO: the 3 algorithms
+    // Run all three algorithms against the same sequence
+    int fcfs_distance = fcfs_total(requests, length);
+    int sstf_distance = sstf_total(requests, length);
+    int scan_distance = scan_total(requests, length);
+
+    printf("\nTotal head movement (starting at cylinder 0):\n");
+    printf("FCFS: %d cylinders\n", fcfs_distance);
+    printf("SSTF: %d cylinders\n", sstf_distance);
+    printf("SCAN: %d cylinders\n", scan_distance);
 
     return 0;
 }
-

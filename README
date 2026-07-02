@@ -4,3 +4,43 @@
 # Ronessa Mose / Nicolas Mendoza
 # cssc3138 / cssc3135
 ########################################
+
+Grading account: cssc3135
+
+File Manifest:
+main.c - Main program logic (sequence generation, running the three algorithms, printing results)
+algs.c - Implementations of the FCFS, SSTF, and SCAN disk arm scheduling algorithms
+algs.h - Header file with function prototypes for main.c and algs.c
+Makefile - Builds executable and contains clean rule
+README - The README
+
+Compile Instructions:
+From ~/a3: make
+To clean: make clean
+
+Operating Instructions:
+From ~/a3: ./simarm <sequence length>
+Example: ./simarm 64
+
+Extra Features:
+- N/A
+
+-- Ronessa Mose / cssc3138 --
+Work completed:
+[fill in]
+
+main.c: Lines 1-51
+algs.c: N/A
+algs.h: N/A
+Makefile: Entire file
+README: Ronessa Mose section
+
+-- Nicolas Mendoza / cssc3135 --
+Work completed:
+Implemented the three disk arm scheduling algorithms (FCFS, SSTF, SCAN)
+
+main.c: Lines 52-64
+algs.c: Entire file
+algs.h: Entire file
+Makefile: N/A
+README: Nicolas Mendoza section

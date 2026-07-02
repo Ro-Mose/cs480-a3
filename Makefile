@@ -6,10 +6,10 @@
 ########################################
 
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = -Wall -std=c99
 
-simarm: main.c algorithms.c
-	$(CC) $(CFLAGS) main.c algorithms.c -o simarm
+simarm: main.c algs.c algs.h
+	$(CC) $(CFLAGS) main.c algs.c -o simarm
 
 clean:
 	rm -f simarm

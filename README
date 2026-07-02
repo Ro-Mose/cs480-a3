@@ -27,7 +27,7 @@ Extra Features:
 
 -- Ronessa Mose / cssc3138 --
 Work completed:
-[fill in]
+Implemented main.c, generated the random cylinder request sequence, and created the Makefile
 
 main.c: Lines 1-51
 algs.c: N/A
